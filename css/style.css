@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*font-family: 'Shadows Into Light', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Hi Melody', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Marmelad', sans-serif;*/
+
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color:darkred;
+}
+
+.navbar-brand:{
+    height: 50px;
+}
+
+.instaimg img {margin-bottom:30px;}
+.instaimg img:hover {
+	opacity:0.6;
+	-moz-opacity:0.6;
+	-webkit-opacity:0.6;
+}
+
+.gif:{
+    width:100%;
+    height:0;
+    padding-bottom:75%;
+    position:relative;
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+    color: #222;
+    background-color: antiquewhite;
+}
+
+
+.navbar {
+    padding: .8rem; 
+}
+
+.navbar-nav {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 40%;
+}
+.carousel-caption {
+   position: absolute;
+   top: 77%;
+   transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    color: #44120c;
+    font-size: 600%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #fcf3f2;
+}
+.carousel-caption h3{
+    color:#050201;
+    text-shadow: 1px 1px 10px #fcf3f2;
+    font-family: 'Handlee', cursive;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.carousel-caption button{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #422a23;
+    border: 1px solid #0c0503;
+}
+.carousel-caption button:hover {
+    background-color: aquamarine;
+    border: 1px solid #0c0503;
+}
+.jumbotron {
+    padding: 10px;
+    border-radius: 0;
+}
+.jumbo-button{
+   transform: translateY(25%);
+}
+.padding {
+    padding-bottom: 20px;
+}
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.welcome h1 {
+   font-family: 'Satisfy', cursive;
+   text-shadow: 1px 1px 10px lightgray;
+}
+
+.fa-puzzle-piece {
+    color: #af371c;
+}
+
+.fa-pagelines {
+    color: #2a680f;
+}
+
+.fa-pencil-alt {
+    color: #370f68;
+}
+
+.fa-puzzle-piece, .fa-pagelines, .fa-pencil-alt {
+    font-size: 4em;
+    margin: 1rem;
+} 
+.threecolsec h3 {
+    text-decoration: underline dotted brown;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin: 0!important;
+
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+#fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+    will-change: transform;
+}
+.fixed-wrap img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+.gif {
+    max-width: 100%;
+}
+
+
+.social a {
+    font-size: 3.5rem;
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
